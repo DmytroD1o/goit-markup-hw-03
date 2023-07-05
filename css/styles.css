@@ -103,7 +103,6 @@ body {
 }
 
 .header-menu-item {
-  padding: 24px 0;
 }
 
 .header-menu-link {
@@ -111,6 +110,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .header-menu-link:hover,
@@ -272,7 +272,6 @@ body {
 .team-list {
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
 }
 
 .team-decsr-container {
@@ -283,6 +282,7 @@ body {
   border-radius: 0px 0px 4px 4px;
   background-color: var(--third-color);
   min-width: 264px;
+  width: calc((100% - 72px) / 4);
 }
 .team-section-subtitle {
   color: var(--main-color);
@@ -302,9 +302,9 @@ body {
 
 /* *--------------------PORTFOLIO------------------------- */
 
-.portfolio-filter-buttons {
-  padding-top: 96px;
-  margin: 0 auto;
+.portfolio-hero-section {
+  padding-top: 96px; 
+  padding-bottom: 120px; 
 }
 
 .portfolio-container {
@@ -350,7 +350,8 @@ body {
 .developments-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  row-gap: 48px;
+  column-gap: 24px;
   padding-bottom: 120px;
   
 }
